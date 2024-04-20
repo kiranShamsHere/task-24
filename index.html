@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-24</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div>
+    <p id="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque deserunt unde vel enim dolorem
+        quibusdam
+        laboriosam repudiandae doloribus adipisci architecto minus quia iste pariatur eius, odio, a, eaque dicta
+        cupiditate!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt eius dolore voluptate ea numquam! Quasi a
+        mollitia illo aut sapiente fuga esse, distinctio voluptate necessitatibus, enim labore molestiae nulla atque!
+    </p>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+   </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $("#show").hide();
+        $("#hide").click(function () {
+            $("p").hide();
+            $("#hide").hide();
+            $("#show").show();
+        })
+        $("#show").click(function () {
+            $("p").show();
+            $("#hide").show();
+            $("#show").hide();
+        })
+    </script>
+
+</body>
+
+</html>
