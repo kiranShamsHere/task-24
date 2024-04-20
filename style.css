@@ -22,6 +22,7 @@ button {
   cursor: pointer;
   background-color: rgba(126, 17, 126, 0.705);
   color: white;
+  font-size: 17px;
 }
 p {
   font-size: 17px;
